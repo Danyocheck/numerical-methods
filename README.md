@@ -46,16 +46,7 @@ $P_n(x) = a_0 + a_1x + a_2x^2 + ... + a_n*x^n$,
 
 определитель этой системы:
 
-$\bigtriangleup = \begin{pmatrix}
-  1 & x_0 & x_0^2 & \cdots & x_0^n \\
-  1 & x_1 & x_1^2 & \cdots & x_1^n \\
-  \cdots  & \cdots  & \cdots & \cdots & \cdots  \\
-  1 & x_n & x_n^2 & \cdots & x_n^n \\ 
- \end{pmatrix} = \displaystyle\prod_{\substack{
-                            i,j = 1 \\
-                            i \neq j
-                            }} 
-                            (x_i - x_j)$,
+$\bigtriangleup = \begin{pmatrix}$
 
 определитель отличен от нуля, и интерполирование функции f(x) по её значениям в узлах $x_i$ с помощью многочлена $P_n(x)$ всегда возможно и единственно. 
 
