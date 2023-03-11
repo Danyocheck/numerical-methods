@@ -45,10 +45,7 @@ $P_n(x) = a_0 + a_1x + a_2x^2 + ... + a_n*x^n$,
 где $a_0, a_1, ..., a_n$ - коэффициенты многочлена, x - независимая переменная, а n - степень многочлена.
 
 определитель этой системы:
-$\bigtriangleup = 
- \begin{pmatrix}
-  1 & x_0 & x_0^2 & \cdots & x_0^n \\
-  1 & x_1 & x_1^2 & \cdots & x_1^n \\
+$\bigtriangleup = \begin{pmatrix} 1 & x_0 & x_0^2 & \cdots & x_0^n \\ 1 & x_1 & x_1^2 & \cdots & x_1^n \\
   \cdots  & \cdots  & \cdots & \cdots & \cdots  \\
   1 & x_n & x_n^2 & \cdots & x_n^n \\
  \end{pmatrix} $ = $\displaystyle\prod_{\substack{
